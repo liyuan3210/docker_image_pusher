@@ -1,7 +1,7 @@
 nginx
 #支持私库
-amd64/debian
-arm64v8/debian:12.7
+--platform=linux/amd64 amd64/debian
+--platform=linux/arm64/v8 arm64v8/debian:12.7
 #支持指定架构
-amd64/redis
-arm64v8/redis:6.2
+--platform=linux/amd64 amd64/redis
+--platform=linux/arm64/v8 arm64v8/redis:6.2
