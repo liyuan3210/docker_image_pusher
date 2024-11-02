@@ -1,7 +1,5 @@
 nginx
 #支持私库
 --platform=amd64 debian:12.7
---platform=arm64v8 debian
 #支持指定架构
 --platform=amd64 redis:6.2
---platform=linux/arm64v8 redis
