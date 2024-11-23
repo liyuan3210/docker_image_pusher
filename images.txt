@@ -1,7 +1,18 @@
-nginx
-#支持私库
---platform=linux/amd64 debian
---platform=linux/arm64/v8 debian:12.7
-#支持指定架构
---platform=linux/amd64 redis
---platform=linux/arm64/v8 redis:6.2
+# rockylinux
+--platform=linux/amd64 rockylinux:9.3
+--platform=linux/arm64 rockylinux:9.3
+# debian
+--platform=linux/amd64 debian:12.8
+--platform=linux/arm64/v8 debian:12.8
+# nginx
+--platform=linux/amd64 nginx:1.26.2
+--platform=linux/arm64/v8 nginx:1.26.2
+# mysql
+--platform=linux/amd64 mysql:8.4.3
+--platform=linux/arm64/v8 mysql:8.4.3
+# redis
+--platform=linux/amd64 redis:6.2.16
+--platform=linux/arm64/v8 redis:6.2.16
+# zookeeper
+--platform=linux/amd64 zookeeper:3.8.4
+--platform=linux/arm64/v8 zookeeper:3.8.4
