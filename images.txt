@@ -8,11 +8,14 @@
 --platform=linux/amd64 nginx:1.26.2
 --platform=linux/arm64/v8 nginx:1.26.2
 # mysql
---platform=linux/amd64 mysql:8.4.3
---platform=linux/arm64/v8 mysql:8.4.3
+--platform=linux/amd64 mysql:8.4.2
+--platform=linux/arm64/v8 mysql:8.4.2
 # redis
 --platform=linux/amd64 redis:6.2.16
 --platform=linux/arm64/v8 redis:6.2.16
 # zookeeper
 --platform=linux/amd64 zookeeper:3.8.4
 --platform=linux/arm64/v8 zookeeper:3.8.4
+# postgresql
+--platform=linux/amd64 postgres:15.10
+--platform=linux/arm64/v8 postgres:15.10
