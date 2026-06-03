@@ -19,3 +19,14 @@
 # postgresql
 --platform=linux/amd64 postgres:15.10
 --platform=linux/arm64/v8 postgres:15.10
+# dify
+--platform=linux/amd64 langgenius/dify-api:1.13.3
+--platform=linux/amd64 langgenius/dify-web:1.13.3
+--platform=linux/amd64 semitechnologies/weaviate:1.27.0
+--platform=linux/amd64 langgenius/dify-plugin-daemon:0.5.3-local
+--platform=linux/amd64 ubuntu/squid:latest
+--platform=linux/amd64 nginx:latest
+--platform=linux/amd64 busybox:latest
+--platform=linux/amd64 redis:6-alpine
+--platform=linux/amd64 langgenius/dify-sandbox:0.2.14
+--platform=linux/amd64 postgres:15-alpine
