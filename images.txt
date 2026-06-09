@@ -30,3 +30,5 @@
 --platform=linux/amd64 redis:6-alpine
 --platform=linux/amd64 langgenius/dify-sandbox:0.2.14
 --platform=linux/amd64 postgres:15-alpine
+# podman image
+--platform=linux/amd64 quay.io/podman/machine-os:5.7
