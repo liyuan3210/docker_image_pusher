@@ -32,3 +32,5 @@
 --platform=linux/amd64 postgres:15-alpine
 # podman image
 --platform=linux/amd64 quay.io/podman/machine-os:5.7
+# harness
+--platform=linux/amd64 harness/harness:latest
