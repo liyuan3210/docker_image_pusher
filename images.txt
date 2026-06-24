@@ -34,3 +34,11 @@
 --platform=linux/amd64 quay.io/podman/machine-os:5.7
 # harness
 --platform=linux/amd64 harness/harness:latest
+# neo4j
+--platform=linux/amd64 neo4j:5.26.27-community
+# milvus
+--platform=linux/amd64 quay.io/coreos/etcd:v3.5.25
+--platform=linux/amd64 minio/minio:RELEASE.2024-12-18T13-15-44Z
+--platform=linux/amd64 milvusdb/milvus:v2.6.18
+# weaviate
+--platform=linux/amd64 cr.weaviate.io/semitechnologies/weaviate:1.38.1
