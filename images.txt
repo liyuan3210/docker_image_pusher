@@ -11,5 +11,4 @@
 --platform=linux/amd64 ghcr.io/gattaca-com/helix-relay:main
 --platform=linux/amd64 ethpandaops/buildoor:main
 --platform=linux/amd64 ethpandaops/bootnodoor:latest
---platform=linux/amd64 ethpandaops/xatu-sentry:latest
 --platform=linux/amd64 ethpandaops/ethereum-genesis-generator:5.3.3
