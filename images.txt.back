@@ -42,3 +42,18 @@
 --platform=linux/amd64 milvusdb/milvus:v2.6.18
 # weaviate
 --platform=linux/amd64 cr.weaviate.io/semitechnologies/weaviate:1.38.1
+
+# kurtosis
+--platform=linux/amd64 ethereum/client-go:latest
+--platform=linux/amd64 sigp/lighthouse:latest
+--platform=linux/amd64 consensys/web3signer:latest
+--platform=linux/amd64 ethpandaops/dora:latest
+--platform=linux/amd64 ethpandaops/assertoor:latest
+--platform=linux/amd64 ethpandaops/checkpointz:latest
+--platform=linux/amd64 ethpandaops/mev-boost-relay:main
+--platform=linux/amd64 ethpandaops/reth-rbuilder:develop
+--platform=linux/amd64 ethpandaops/mev-boost:develop
+--platform=linux/amd64 ghcr.io/gattaca-com/helix-relay:main
+--platform=linux/amd64 ethpandaops/buildoor:main
+--platform=linux/amd64 ethpandaops/bootnodoor:latest
+--platform=linux/amd64 ethpandaops/ethereum-genesis-generator:5.3.3

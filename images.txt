@@ -1,14 +1,2 @@
 # kurtosis
---platform=linux/amd64 ethereum/client-go:latest
---platform=linux/amd64 sigp/lighthouse:latest
---platform=linux/amd64 consensys/web3signer:latest
---platform=linux/amd64 ethpandaops/dora:latest
---platform=linux/amd64 ethpandaops/assertoor:latest
---platform=linux/amd64 ethpandaops/checkpointz:latest
---platform=linux/amd64 ethpandaops/mev-boost-relay:main
---platform=linux/amd64 ethpandaops/reth-rbuilder:develop
---platform=linux/amd64 ethpandaops/mev-boost:develop
---platform=linux/amd64 ghcr.io/gattaca-com/helix-relay:main
---platform=linux/amd64 ethpandaops/buildoor:main
---platform=linux/amd64 ethpandaops/bootnodoor:latest
---platform=linux/amd64 ethpandaops/ethereum-genesis-generator:5.3.3
+--platform=linux/amd64 timberio/vector:0.45.0-debian
