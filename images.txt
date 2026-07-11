@@ -1,2 +1,2 @@
-# kurtosis
---platform=linux/amd64 traefik:2.10.6
+# kurtosi
+--platform=linux/amd64 alpine:3.17
