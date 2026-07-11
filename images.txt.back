@@ -61,3 +61,4 @@
 --platform=linux/amd64 timberio/vector:0.45.0-debian
 --platform=linux/amd64 badouralix/curl-jq:latest
 --platform=linux/amd64 traefik:2.10.6
+--platform=linux/amd64 alpine:3.17

@@ -1,2 +1,2 @@
 # kurtosi
---platform=linux/amd64 alpine:3.17
+--platform=linux/amd64 kurtosistech/engine:1.20.0
