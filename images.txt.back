@@ -65,3 +65,4 @@
 --platform=linux/amd64 kurtosistech/engine:1.20.0
 --platform=linux/amd64 fluent/fluent-bit:4.0.0
 --platform=linux/amd64 kurtosistech/core:1.20.0
+--platform=linux/amd64 protolambda/eth2-val-tools:latest
