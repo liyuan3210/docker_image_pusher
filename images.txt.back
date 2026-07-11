@@ -62,3 +62,4 @@
 --platform=linux/amd64 badouralix/curl-jq:latest
 --platform=linux/amd64 traefik:2.10.6
 --platform=linux/amd64 alpine:3.17
+--platform=linux/amd64 kurtosistech/engine:1.20.0
