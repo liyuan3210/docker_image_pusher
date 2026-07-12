@@ -67,3 +67,4 @@
 --platform=linux/amd64 kurtosistech/core:1.20.0
 --platform=linux/amd64 protolambda/eth2-val-tools:latest
 --platform=linux/amd64 kurtosistech/files-artifacts-expander:1.20.0
+--platform=linux/amd64 ethpandaops/teku:master
