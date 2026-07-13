@@ -1,3 +1,2 @@
-# kurtosi
-# 5.3.3升级至5.3.5
---platform=linux/amd64 ethpandaops/ethereum-genesis-generator:5.3.5
+# k8s kind
+--platform=linux/amd64 kindest/node:v1.36.1
